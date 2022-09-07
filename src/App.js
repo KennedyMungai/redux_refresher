@@ -9,8 +9,8 @@ function App() {
       <h1>Counter App</h1>
       <h2>{counter}</h2>
 
-      <button onClick={increment}></button>
-      <button onClick={decrement}></button>
+      <button onClick={increment}>Add</button>
+      <button onClick={decrement}>Remove</button>
     </div>
   );
 }
