@@ -8,6 +8,9 @@ function App() {
     <div>
       <h1>Counter App</h1>
       <h2>{counter}</h2>
+
+      <button onClick={increment}></button>
+      <button onClick={decrement}></button>
     </div>
   );
 }
