@@ -1,7 +1,7 @@
 import { createStore } from "react-redux";
 
 
-const reducerFn = (state, action) => {
+const reducerFn = (state = {counter: 0}, action) => {
 
 }
 
