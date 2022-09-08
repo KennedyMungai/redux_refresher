@@ -6,7 +6,7 @@ function App() {
   const dispatch = useDispatch();
 
   const increment = () => {
-
+    dispatch({type:'INC'});
   };
 
   const decrement = () => {
