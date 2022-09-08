@@ -1,4 +1,4 @@
-import { createStore } from "react-redux";
+import { createStoreHook } from "react-redux";
 
 
 const reducerFn = (state = {counter: 0}, action) => {
@@ -10,6 +10,6 @@ const reducerFn = (state = {counter: 0}, action) => {
 }
 
 
-const store = createStore(reducerFn);
+const store = createStoreHook(reducerFn);
 
 export default store;
